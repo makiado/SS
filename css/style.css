@@ -11,6 +11,23 @@
   text-align: right;
 }
 
+.intro{
+  margin: 20px;
+  padding: 320px;
+  min-height: 200%;
+  min-width: 100%;
+  color: rgb(8, 114, 141);
+  position: absolute;
+  font-family:fantasy;
+  font-style: oblique;
+  font-size: 200%;
+  text-align: center; 
+  box-sizing: border-box;
+  background-size:cover;
+  background-blend-mode: saturation;
+  display:block
+}
+
 .center{
   display: flex;
   flex-wrap: wrap;
@@ -49,4 +66,8 @@ header{
   width: 120%;
   height: 120%;
   text-align: right;
+}
+
+.dabutton{
+size: 0em;
 }
