@@ -2,42 +2,114 @@
 *{
   margin:0;
   padding:0;
+  width: 100%;
+  max-height: auto;
   box-sizing: border-box;
   background-image:url('../assets/tumblr_piww1dvWHE1whahvko1_540.gif');
   background-size:cover;
-  background-blend-mode: saturation;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-blend-mode:inherit;
+  background-repeat:round;
+  background-attachment:fixed;
+  text-align: middle;
+  position:static;
 }
+
+.intro{
+  margin: 0px;
+  padding: 1px;
+  min-height: 20000%;
+  width: 100%;
+  color: rgb(8, 114, 141);
+  position:absolute;
+  font-family:fantasy;
+  font-style: oblique;
+  font-size: 100%;
+  text-align: center; 
+  margin-left: 1em;
+  margin-right: 1em;
+  background-blend-mode: saturation;
+  display:block
+}
+
+
+
 .center{
-  display: flex;
-  flex-wrap: wrap;
+  display:flex;
+  flex-wrap:wrap;
   max-width: 1100px;
   margin:0 auto;
-  padding:0 2%;
+  padding:0%;
+  text-align:center;
 }
 
 header{
-  padding: 20px 0;
+  margin-left: -1.5em;
+  padding: 3% 3%;
+
 }
 
 
 .menu{
-  padding-top: 10px;
-  width: 50%;
-  text-align: middle;
+  padding-top: 3em;
+  margin: 30px;
+  word-spacing:3vw;
+  background-blend-mode: saturation;
+  white-space: nowrap;
+  
 }
 
 .menu a{
-  color: blueviolet;
   text-decoration: none;
   font-weight:  bold;
-  font-size: 80px;
-  margin-right: 15px;
+  font-size:1.6vmax;
 }
-.logo{
-  size: 10000px;
-  width: 120%;
-  height: 120%;
 
+.logo{
+  margin: 20px;
+  size: 100%;
+  min-width: 100%;
+  max-height: auto;
+  text-align: center;
+}
+
+.button{
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(162, 255, 153);
+    background-color: #92718d7e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px rgba(104, 3, 79, 0.432);
+  
+  }
+  
+.button:hover {
+    background-color: #023b55
+  }
+  
+.button:active {
+    background-color: #ff4800;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.dabutton{
+  size: 0em;
+  max-width: 30%;
+  background-color: #4f06c57e;
+  color: rgb(214, 252, 0);
+  font-family:fantasy;
+  font-style: oblique;
+  font-size: 100%;
+  
+}
+.responsive{
+  width: 100%;
+  max-width: 20em;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
