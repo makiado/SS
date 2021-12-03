@@ -54,7 +54,7 @@ header{
   word-spacing:3vw;
   background-blend-mode: saturation;
   white-space: nowrap;
-  
+  text-align: center;  
 }
 
 .menu a{
