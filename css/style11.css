@@ -28,7 +28,7 @@
   margin-left: 1em;
   margin-right: 1em;
   background-blend-mode: saturation;
-  display:block;
+  display:block
 }
 
 
@@ -49,21 +49,18 @@ header{
 
 
 .menu{
-  word-spacing:07vw;
+  padding-top: 3em;
+  margin: 30px;
+  word-spacing:3vw;
   background-blend-mode: saturation;
-  display:flex;
-  flex-wrap:nowrap;
-  padding: 12px;
- word-spacing: 9px;
+  white-space: nowrap;
+  text-align: center;  
 }
 
 .menu a{
   text-decoration: none;
   font-weight:  bold;
-  font-size:1.4vmax;
-  margin: 12px;
-  padding-top: 10px;
-  text-align:center;
+  font-size:1.6vmax;
 }
 
 .logo{
@@ -84,7 +81,7 @@ header{
     border: none;
     border-radius: 10px;
     box-shadow: 0 9px rgba(104, 3, 79, 0.432);
-    
+  
   }
   
 .button:hover {
