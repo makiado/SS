@@ -115,3 +115,18 @@ header{
   margin-left: auto;
   margin-right: auto;
 }
+
+.textoprincipal{
+  text-align: center;
+  size: 2em;
+  max-width: 100%;
+  font-weight: bolder;
+  background-color: #4f06c57e;
+  font-family:fantasy;
+  font-style: oblique;
+  font-size: 140%; 
+  margin-left: 20px;
+  padding-top: 2%;
+  color: blanchedalmond;
+  text-overflow: ellipsis;
+}
